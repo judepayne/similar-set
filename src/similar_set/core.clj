@@ -1,5 +1,9 @@
 (ns similar-set.core)
 
+;;;;;;;;;;;;;section;;;;;;;;;;;;;;;;;
+(comment "Basic set operations with a supplied function used to establish
+          whether an element is a member of the set")
+
 (defn- switch [f] = (not f))
 
 (defn- similar-set-elem-in
@@ -46,6 +50,9 @@
 (defn superset? [s1 s2 f]
   "Is the first set a superset of the second using supplied function as a matcher"
   (subset? s2 s1 f))
+
+;;;;;;;;;;;;;section;;;;;;;;;;;;;;;;;
+(comment "Grouping elements in the set into sub sets using supplied function")
 
 (defn- subgroup [s1 s2 f]
   "iterate over second set to establish whether is belongs in the first set"

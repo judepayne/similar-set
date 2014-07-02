@@ -1,6 +1,6 @@
 # similar-set
 
-A tiny clojure library for doing set operations using a supplied matching function
+A clojure library for doing set operations using a supplied matching function
 rather than an (implicit) equality test. Useful for fuzzy matches on Sets.
 For example this is useful if you want to want match lists of names but they may be formatting
 or spelling differences between the same name in two lists.
