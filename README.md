@@ -12,7 +12,7 @@ intersection, difference and union operations only are supplied
 
 add the following to your project.clj:
 
-    [similar-set "0.1.0"]
+    [similar-set "0.1.1"]
 
 then in your code file/s:
 
@@ -71,7 +71,8 @@ whereas the value supplied comes from l2.
 For matched but not necessarily identical values, the value supplied in the union
 operation always come from the first supplied set.
 
-Others functions included (using supplied function for matching):
+
+#### Other functions included (using supplied function for matching):
 
 `subset? [s1 s2 f]` is s1 a subset of s2?
 
