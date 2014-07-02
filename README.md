@@ -72,13 +72,20 @@ For matched but not necessarily identical values, the value supplied in the unio
 operation always come from the first supplied set.
 
 Others functions included (using supplied function for matching):
-`subset? [s1 s2 f]` ;;is s1 a subset of s2?
-`superset? [s1 s2 f]` ;;is s1 a superset of s2?
-`group [s1 f]`  ;;spilts a set into groups using function
-`symmetric-difference [s1 s2 f]` ;;the union of two sets minus the intersection
-`cartesian-products [s & more]` ;;cartesian-product of n sets
-`jaccard-index [s1 s2 f]` ;;jaccard-index/ similarity of two sets, value between 0 & l1
-`jaccard-distance [s1 s2 f]` ;;jaccard-distance/ dissimilarity between two sets, between 0 & 1
+
+`subset? [s1 s2 f]` is s1 a subset of s2?
+
+`superset? [s1 s2 f]` is s1 a superset of s2?
+
+`group [s1 f]`  spilts a set into groups using function
+
+`symmetric-difference [s1 s2 f]` the union of two sets minus the intersection
+
+`cartesian-products [s & more]` cartesian-product of n sets
+
+`jaccard-index [s1 s2 f]` jaccard-index/ similarity of two sets, value between 0 & l1
+
+`jaccard-distance [s1 s2 f]` jaccard-distance/ dissimilarity between two sets, between 0 & 1
 
 ## License
 
