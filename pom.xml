@@ -3,7 +3,7 @@
   <groupId>similar-set</groupId>
   <artifactId>similar-set</artifactId>
   <packaging>jar</packaging>
-  <version>0.1.0</version>
+  <version>0.1.1</version>
   <name>similar-set</name>
   <description>Set operations where member matching is established with a supplied predicate</description>
   <url>http://github.com/judepayne/similar-set</url>

@@ -1,4 +1,4 @@
-(defproject similar-set/similar-set "0.1.0"
+(defproject similar-set/similar-set "0.1.1"
   :description "Set operations where member matching is established with a supplied predicate"
   :url "http://github.com/judepayne/similar-set"
   :scm {:name "git"
