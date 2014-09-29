@@ -84,7 +84,7 @@ operation always come from the first supplied set.
 
 `cartesian-products [s & more]` cartesian-product of n sets
 
-`jaccard-index [s1 s2 f]` jaccard-index/ similarity of two sets, value between 0 & l1
+`jaccard-index [s1 s2 f]` jaccard-index/ similarity of two sets, value between 0 & 1
 
 `jaccard-distance [s1 s2 f]` jaccard-distance/ dissimilarity between two sets, between 0 & 1
 
