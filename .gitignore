@@ -7,3 +7,5 @@ pom.xml.asc
 *.class
 /.lein-*
 /.nrepl-port
+target/repl-port
+target/stale/extract-native.dependencies
