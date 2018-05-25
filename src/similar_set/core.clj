@@ -1,5 +1,6 @@
 (ns similar-set.core)
 
+;; ANDY: this is terrible. re-write!!
 ;;;;;;;;;;;;;section;;;;;;;;;;;;;;;;;
 (comment "Basic set operations with a supplied function used to establish
           whether an element is a member of the set")
